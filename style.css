@@ -9,9 +9,21 @@ button {
 }
 
 #fullscore {
-    display: inline; /* This changes the div from block to inline */
+    display: inline-block; /* This changes the div from block to inline */
     margin-right: 10px; /* Adds space between the divs */
     padding: 5px;
     background-color: #add8e6; /* Light blue background */
     border: 1px solid #000; /* Black border around each div */
+    width:90%
+}
+
+#word
+{
+    text-align: left;
+    display: inline;
+}
+
+#score {
+    text-align: right;
+    display: inline;
 }

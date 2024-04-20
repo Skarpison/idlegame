@@ -13,6 +13,7 @@ document.getElementById('upgrader').addEventListener('click', function() {
         scorePerClick++;
         upgradeCost *= 2; // Increase the cost for the next upgrade
         document.getElementById('score').innerText = score;
+        document.getElementById('currentClick').innerText = scorePerClick;
         document.getElementById('upgrader').innerText = `Upgrade Clicker (Cost: ${upgradeCost})`;
     } else {
         alert('Not enough points!');
